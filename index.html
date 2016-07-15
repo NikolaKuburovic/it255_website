@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>НКЛ1095</title>
+    <!--<link rel="stylesheet" type="text/css" href="stil.css">-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet/less" type="text/css" href="stil.less" />
+    <script src="less.min.js"></script>
+</head>
+
+<body>
+    <div id="omot">
+        <div id="unutrasnji_omot">
+            <div id="header_omot">
+                <div id="header">
+                    <div id="header_gore">
+                        <div class="header_element" id="logo">Упознај Србију</div>
+                        <div class="header_element" id="slogan">инфо портал</div>
+                        <div class="header_element" id="search">
+                            <form>
+                                <input type="text" placeholder="Унесите појам:">
+                                <input type="submit" value="Тражи">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu_omot">
+            <div id="menu">
+                <div class="menu_item"><a href="#">Почетна</a>
+                </div>
+                <div class="menu_item"><a href="#">Излети</a>
+                </div>
+                <div class="menu_item"><a href="#">Галерија</a>
+                </div>
+                <div class="menu_item"><a href="#">Портфолио</a>
+                </div>
+                <div class="menu_item"><a href="#">Видео</a>
+                </div>
+                <div class="menu_item"><a href="#">Контакт</a>
+                </div>
+                <div class="menu_item"><button onclick="izmenaBoje()">Promeni boju</button>
+                </div>
+                <script>
+                    function izmenaBoje(){
+                        document.getElementById("header_omot").style.background = "red";
+                        document.getElementById("header_gore").style.background = "red";
+                        document.getElementById("header").style.background = "red";
+                        document.getElementById("unutrasnji_omot").style.background = "red";
+                    }
+                </script>
+            </div>
+        </div>
+        <div id="slajd_omot">
+            <div id="slajdovi">
+                <img src="slike/beograd.jpg">
+            </div>
+        </div>
+        <div id="natpis" class="natpis_gore">
+            <div id="natpis_gore_omot">
+                <p>Својим укупним вредностима национални паркови надилазе границе Србије и укључени су у Европску федерацију националних паркова – EUROPARC.</p>
+                <a class="natpis_link" href="#">Сазнај више</a>
+            </div>
+        </div>
+        <div id="vesti">
+            <div id="vesti_omot">
+                <div class="vesti_prikaz">
+                    <img src="slike/tara.jpg">
+                    <p>Дунав је најпопуларнија река на свету за речна крстарења, те представља велики туристички потенцијал Србије, са два највећа градска центра у Србији на својој обали – Београд и Нови Сад.</p>
+                    <a class="vesti_link" href="#">Више</a>
+                </div>
+                <div class="vesti_prikaz">
+                    <img src="slike/tara.jpg">
+                    <p>Да бисте упознали неку земљу, људе и обичаје најбољи начин је пешачење, ако вам време то дозвољава. Столетне шуме, непрегледне равнице, села, вароши и градови, врхови планина у Србији прави су изазов за добре пешаке.</p>
+                    <a class="vesti_link" href="#">Више</a>
+                </div>
+                <div class="vesti_prikaz">
+                    <img src="slike/tara.jpg">
+                    <p>После 1371. започиње посебан архитектонски стил моравске градитељске школе, са полихромним фасадама и декоративном пластиком, који се развио у долини Мораве (Раваница, Лазарица, Љубостиња, Каленић…).</p>
+                    <a class="vesti_link" href="#">Више</a>
+                </div>
+            </div>
+        </div>
+        <div id="natpis" class="natpis_dole">
+            <div id="natpis_dole_omot">
+                <img src="slike/twitter.png">
+                <p>Планина Тара нарочито је позната по бујним, густим, аутохтоним четинарским шумама, које је чине најшумовитијом планином Србије и Европе.</p>
+            </div>
+        </div>
+        <div id="podnozje_omot">
+            <div id="podnozje">
+                <div class="pod_element" id="linkovi">
+                    <h2>Стране</h2>
+                    <a href="#">> Почетна</a>
+                    <br />
+                    <a href="#">> Блог</a>
+                    <br />
+                    <a href="#">> Галерија</a>
+                    <br />
+                    <a href="#">> Портфолио</a>
+                    <br />
+                    <a href="#">> Видео</a>
+                    <br />
+                    <a href="#" id="a_kontakt">> Контакт</a>
+                </div>
+                <div class="pod_element" id="kategorije">
+                    <h2>Категорије</h2>
+                    <a href="#">Ово је прва категорија</a>
+                    <br />
+                    <a href="#">Ово је друга категорија</a>
+                    <br />
+                    <a href="#">Ово је трећа категорија</a>
+                    <br />
+                    <a href="#">Ово је четврта категорија</a>
+                    <br />
+                    <a href="#">Ово је пета категорија</a>
+                </div>
+                <div class="pod_element" id="kontakt">
+                    <h2>Контакт</h2> Никола Кубуровић
+                    <br /> Бр. индекса 1095
+                    <br /> Факултет Информационих Технологија
+                    <br /> Београд
+                    <br /> <a href="mailto:nikola.kuburovic.1095@metropolitan.ac.rs?Subject=Domaci03%20IT255" target="_top">nikola.kuburovic.1095@metropolitan.ac.rs</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_omot">
+                <div id="copyright">
+                    <p>Copyright Никола Кубуровић 1095</p>
+                </div>
+                <div id="mreze">
+                    <a href="#"><img src="slike/youtube.png"></a>
+                    <a href="#"><img src="slike/fb.png"></a>
+                    <a href="#"><img src="slike/pin.png"></a>
+                    <a href="#"><img src="slike/in.png"></a>
+                    <p>Пратите нас</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

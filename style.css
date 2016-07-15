@@ -1,0 +1,110 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+body {
+    background: #0f1113;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 0 0;
+}
+
+#header {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../images/header_bg.jpg') repeat scroll 0% 0% transparent;
+}
+
+#wrapperhead {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#gornjalinija {
+    width: 100%;
+    height: 11px;
+    background: #9DC02E;
+    border-bottom: 4px solid #63842D;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9DC02E;
+}
+
+#logo {
+    margin-top: 46px;
+    float: left;
+}
+
+#search {
+    padding-top: 98px;
+    margin-right: 4px;
+    float: right;
+}
+
+input[type=text] {
+    background: #0f1113;
+    border: 0;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    color: silver;
+    font-weight: 700;
+}
+
+input[type=submit] {
+    background: #9DC02E;
+    border: 0;
+    border-bottom: 4px solid #63842D;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+#menu {
+    width: 100%;
+    height: 100px;
+    margin: 17px 0 0 2px;
+    float: left;
+    padding-top: 48px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuitem {
+    display: inline-block;
+    padding: 15px 29px 15px 29px;
+    border-left: 1px;
+    border-left-color: white;
+    margin-left: -5px;
+    font-size: 30px;
+    background: #202529;
+    border-bottom: 4px solid #9DC02E
+}
+
+.menuitem:hover {
+    display: inline-block;
+    padding: 15px 29px 15px 29px;
+    border-left: 1px;
+    border-left-color: white;
+    margin-left: -5px;
+    font-size: 30px;
+    background: #9DC02E;
+    border-bottom: 4px solid #9DC02E;
+}
+
+.menuitem:active {
+    display: inline-block;
+    padding: 15px 29px 15px 29px;
+    border-left: 1px;
+    border-left-color: white;
+    margin-left: -5px;
+    font-size: 30px;
+    background: #9DC02E;
+    border-bottom: 4px solid #63842D;
+}
